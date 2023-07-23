@@ -1,0 +1,77 @@
+.modalContainer{
+    width: 70vw;
+    height: 60vh;
+}
+
+.imageDescContainer{
+    height: 300px;
+    width: 70%;
+}
+
+.imageDescContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+.dateTimeContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.locationContainer{
+    padding-top: 20;
+}
+
+.locationContainer div{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.titleRootContainer{
+    height: 300px;
+    background: var(--darker-bg-color);
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.titleTopBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topBar{
+    justify-content: center;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.topBar .month{
+    text-transform: uppercase;
+}
+
+.topBar .day{
+    font-size: 20px;
+}
+
+.dialogFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+    border-top: 3px solid var(--darker-bg-color);
+}
+
+.dialogFooter :nth-child(1){
+    padding-top: 10px;
+}
